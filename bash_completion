@@ -39,9 +39,15 @@ fi
 
 # Alter the following to reflect the location of this file.
 #
+<<<<<<< HEAD
 [ -n "$BASH_COMPLETION" ] || BASH_COMPLETION=/usr/local/etc/bash_completion
 [ -n "$BASH_COMPLETION_DIR" ] || BASH_COMPLETION_DIR=/usr/local/etc/bash_completion.d
 [ -n "$BASH_COMPLETION_COMPAT_DIR" ] || BASH_COMPLETION_COMPAT_DIR=/usr/local/etc/bash_completion.d
+=======
+[ -n "$BASH_COMPLETION" ] || BASH_COMPLETION=/etc/bash_completion
+[ -n "$BASH_COMPLETION_DIR" ] || BASH_COMPLETION_DIR=/etc/bash_completion.d
+[ -n "$BASH_COMPLETION_COMPAT_DIR" ] || BASH_COMPLETION_COMPAT_DIR=/etc/bash_completion.d
+>>>>>>> origin/master
 readonly BASH_COMPLETION BASH_COMPLETION_DIR BASH_COMPLETION_COMPAT_DIR
 
 # Set a couple of useful vars
